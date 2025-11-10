@@ -1,0 +1,31 @@
+{
+  "name": "liquid-glass-panel",
+  "version": "1.0.0",
+  "description": "A Linear-inspired liquid glass UI component with translucent blur effects, dynamic specular highlights, and depth layering",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "glass-morphism",
+    "ui-component",
+    "css",
+    "backdrop-filter",
+    "blur",
+    "linear-design",
+    "glassmorphism",
+    "frosted-glass"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/liquid-glass-panel.git"
+  }
+}
+

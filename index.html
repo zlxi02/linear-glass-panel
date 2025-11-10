@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Glass Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Black background -->
+    <div class="background"></div>
+    
+    <!-- Create Button (Center) -->
+    <button class="create-button" id="createButton">
+        <svg class="create-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+            <path fill="currentColor" d="M10.78 2.28a.75.75 0 1 0-1.06-1.06L5.44 5.5L5 7l1.5-.44zM6.25 1.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 0-.75.75v4.5c0 .414.336.75.75.75h4.5A.75.75 0 0 0 9 8.25v-2.5a.75.75 0 0 1 1.5 0v2.5a2.25 2.25 0 0 1-2.25 2.25h-4.5A2.25 2.25 0 0 1 1.5 8.25v-4.5A2.25 2.25 0 0 1 3.75 1.5z"/>
+        </svg>
+    </button>
+    
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modalOverlay">
+        <!-- Main Liquid Glass Card (Modal) -->
+        <div class="liquid-glass-card">
+            <!-- Close button -->
+            <button class="close-button" id="closeButton">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            
+            <!-- Specular highlight layer (glossy reflection) -->
+            <div class="specular-highlight"></div>
+            
+            <!-- Card content -->
+            <div class="card-content">
+                <h3 class="modal-title">New Issue</h3>
+                
+                <!-- Unified input container -->
+                <div class="unified-input-container">
+                    <input type="text" id="issue-title" placeholder="Issue title" class="title-input">
+                    <textarea id="issue-description" rows="6" placeholder="Add description..." class="description-input"></textarea>
+                    <div class="divider-line"></div>
+                    <button class="send-button">Create issue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Notification Toast -->
+    <div class="notification-toast" id="notificationToast">
+        <button class="toast-close-button" id="toastCloseButton">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </button>
+        
+        <div class="toast-content">
+            <div class="toast-header">
+                <svg class="toast-checkmark" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="9" fill="#22c55e"/>
+                    <path d="M6 10L9 13L14 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="toast-title">Issue created</span>
+            </div>
+            
+            <div class="toast-issue-info">
+                <svg class="toast-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+                <span id="toastIssueName">SAL-8 – New Issue title</span>
+            </div>
+            
+            <a href="#" class="toast-link">View issue</a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
