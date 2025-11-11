@@ -1,10 +1,14 @@
-# Liquid Glass Panel
+# Linear Glass Panel
 
 A modern, minimalist issue creation interface inspired by Linear's elegant design philosophy—a mix of minimalism and high attention to detail.
 
 ## 🎬 Demo
 
-Check out the live demo and design breakdown on [LinkedIn](https://www.linkedin.com/posts/zacharyxi_todays-project-an-issue-creation-button-activity-7393800223795372033-FD9y?utm_source=share&utm_medium=member_desktop&rcm=ACoAACVoKp4BTklUHdi1ni_mubY4MnY8g0_te1g)
+Demo-> [LinkedIn](https://www.linkedin.com/posts/zacharyxi_todays-project-an-issue-creation-button-activity-7393800223795372033-FD9y?utm_source=share&utm_medium=member_desktop&rcm=ACoAACVoKp4BTklUHdi1ni_mubY4MnY8g0_te1g)
+
+## 🤔 Why This Project?
+
+This project was born from a desire to practice **high-touch, taste-driven coding**. In an era where AI tools can quickly generate interfaces, it's easy to let them dictate design choices. This project is about slowing down, observing carefully, and implementing with intention—understanding not just *what* makes Linear's interface great, but *why*.
 
 ## 🎨 Inspiration & Design Philosophy
 
@@ -70,8 +74,8 @@ The only color that isn't black/grey/purple is the green checkmark you receive a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/liquid-glass-panel.git
-cd liquid-glass-panel
+git clone https://github.com/yourusername/linear-glass-panel.git
+cd linear-glass-panel
 ```
 
 2. Install dependencies:
@@ -155,7 +159,7 @@ It's amazing how much thought lives in tiny details:
 ## 📂 Project Structure
 
 ```
-liquid-glass-panel/
+linear-glass-panel/
 ├── index.html          # Main HTML structure
 ├── styles.css          # All styling and animations
 ├── script.js           # Modal and toast functionality
@@ -164,9 +168,17 @@ liquid-glass-panel/
 └── README.md          # This file
 ```
 
+## 💭 Reflection
+
+> "It's amazing how much thought lives in these details."
+
+This project reinforced that great design isn't about adding more—it's about carefully considering each element and interaction. The difference between a good interface and a great one often comes down to these small, thoughtful details.
+
 ## 🔮 Future Enhancements
 
-- [ ] Add actual form validation
+- [ ] Add form validation
+- [ ] Keyboard shortcuts (Cmd+K to open)
+- [ ] Multiple toast notifications
 - [ ] Connect to actual API/backend
 
 ## 📝 License
@@ -175,5 +187,7 @@ MIT License - feel free to use this project for learning or inspiration.
 
 ---
 
-Built as a design exercise.
+*Built as a design study project focused on taste-driven development and understanding the details that make great interfaces.*
+
+**Read more about the design process:** [LinkedIn Post](https://www.linkedin.com/posts/zacharyxi_todays-project-an-issue-creation-button-activity-7393800223795372033-FD9y)
 
